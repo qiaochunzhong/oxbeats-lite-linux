@@ -1,4 +1,4 @@
-# OxBeats Lite Linux (oxbeats-lite-linux)
+# OxBeats Lite Linux
 
 > **Minimalist Bit-Perfect Real-Time Audio OS with Native DSD Support**  
 > 告别数 GB 的臃肿发行版与商业套壳系统。通过一套严谨的系统工程构建提示词（Prompt-as-Code），让 AI Agent 在云端沙箱中全自动为你炼制出极致纯粹的发烧微数播系统。
