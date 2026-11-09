@@ -17,7 +17,7 @@
 **OxBeats Lite Linux** 将系统极简推向了物理极限：
 * **拒绝虚胖**：最终生成的全功能磁盘镜像（包含内核、引导、应用态与 WebUI）经极限压缩后**体积仅约 15MB**。
 * **绝对点对点直通（Bit-Perfect）**：绕过一切中间件，由单二进制纯 C 引擎直连物理声卡硬件节点，拒绝二次污染。
-* **极客开放性**：本项目以开源的 **Master Prompt（全流程自动化架构提示词）** 为核心分发媒介，任何玩家都可以通过本地或云端 AI Agent（如 Claude Code, Cursor, Windsurf, DeepSeek Harness 等）一键复现、审计、魔改并生成专属镜像。
+* **极客开放性**：本项目以开源的 **Master Prompt（全流程自动化架构提示词）** 为核心分发媒介，任何玩家都可以通过本地或云端 AI Agent（如 WorkBuddy, Trae, DeepSeek Harness 等）一键复现、审计、魔改并生成专属镜像。
 
 ---
 
