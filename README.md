@@ -50,7 +50,7 @@
 本项目将整个构建管线（宿主机环境侦测 -> 云镜像下载 -> QEMU 沙箱启动 -> 内核编译 -> 静态 C 链接 -> 镜像打包与 QEMU 自动化断言）封装为了结构化提示词。
 
 1. **下载或复制本仓库中的提示词文件**：
-   打开 [`oxbeats_lite_linux_master_prompt.md`](./OxBeats_lite_Linux_master_prompt.md)。
+   打开 [`OxBeats_lite_Linux_master_prompt.md`](./OxBeats_lite_Linux_master_prompt.md)。
 2. **交给你的 AI Agent**：
    将该提示词全文直接粘贴给具备终端执行能力的 AI 编程助手（如 WorkBuddy, Cursor, Trae, DeepSeek Harness 等）。
 3. **静待产出**：
