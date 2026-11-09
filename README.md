@@ -52,23 +52,23 @@
 1. **下载或复制本仓库中的提示词文件**：
    打开 [`oxbeats_lite_linux_master_prompt.md`](./oxbeats_lite_linux_master_prompt.md)。
 2. **交给你的 AI Agent**：
-   将该提示词全文直接粘贴给具备终端执行能力的 AI 编程助手（如 Claude Code, Cursor, OpenDevin, Cursor Composer 等）。
+   将该提示词全文直接粘贴给具备终端执行能力的 AI 编程助手（如 WorkBuddy, Cursor, Trae, DeepSeek Harness 等）。
 3. **静待产出**：
    Agent 会自动调用宿主机的 Python 调度器并拉起 Ubuntu Cloud 极速沙箱，几分钟内自动完成编译、打包与自动化验证，在本地目录下吐出成品镜像：
    ```bash
-   oxbeats.img.xz  (~15MB)
+   oxbeats-lite-x86_64.img.xz  (~15MB)
    ```
 
 ---
 
 ### 途径 B：直接下载已打包好的 Release 固件（懒人通道）
 
-如果你不需要修改内核或源码，可以直接前往本仓库的 [Releases 页面](../../releases) 下载最新版本的预编译镜像 `oxbeats.img.xz`。
+如果你不需要修改内核或源码，可以直接前往本仓库的 [Releases 页面](../../releases) 下载最新版本的预编译镜像 `oxbeats-lite-x86_64.img.xz`。
 
 #### 写入 U 盘 / TF 卡步骤：
 1. 准备一个普通 U 盘或 TF/SD 卡（哪怕是闲置的老旧 2GB/4GB 盘均可）。
 2. 下载免安装写盘工具：[Rufus](https://rufus.ie/) 或 [balenaEtcher](https://www.balena.io/etcher/)。
-3. 选中下载好的 `oxbeats.img.xz`（无需手动解压，写盘工具原生支持），目标设备选择你的 U 盘，点击**“开始写入”**。
+3. 选中下载好的 `oxbeats-lite-x86_64.img.xz`（无需手动解压，写盘工具原生支持），目标设备选择你的 U 盘，点击**“开始写入”**。
 4. 将写入完成的 U 盘插入目标 PC/工控机/小主机，开机选择 USB 启动即可。
 
 ---
