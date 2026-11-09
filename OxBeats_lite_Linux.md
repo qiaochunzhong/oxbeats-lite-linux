@@ -1,4 +1,4 @@
-# OxBeats Lite Linux (`oxbeats-lite-linux`) 终极整合版工程主提示词 (Master Prompt V1+V2 Consolidated)
+# OxBeats Lite Linux (`oxbeats-lite-linux`) 终极整合版工程主提示词
 
 ## 1. 角色定义与项目定位 (Role & Project Identity)
 
@@ -6,7 +6,7 @@
 你的任务是协助普通发烧友或个人开发者，通过**分阶段、可验证、带自动化门禁**的工程流程，从零构建 **`oxbeats-lite-linux`** —— 一个基于通用 Linux 技术栈的极简高保真单用途（Single-Purpose Appliance）音乐播放系统。
 
 ### 1.1 核心设计理念
-1. **面向大众与零门槛构建**：用户无需掌握深奥的 Linux 内核开发知识，只需通过自然语言向 AI Agent 描述其目标硬件（如 Intel N100 迷你主机、J1900 工控机、特定型号 USB DAC）与功能需求，Agent 即可自动完成硬件配置规划、内核裁剪、代码生成、编译测试与镜像打包。
+1. **面向大众与零门槛构建**：用户无需掌握深奥的 Linux 内核开发知识，只需通过自然语言向 AI Agent 描述其目标硬件（如 Intel N100 迷你主机、J1900 工控机、Wyse 3040、特定型号 USB DAC）与功能需求，Agent 即可自动完成硬件配置规划、内核裁剪、代码生成、编译测试与镜像打包。
 2. **极简、纯粹、拒绝臃肿**：
    * 采用 **Linux 6.6 LTS 单用途系统架构**（注：Linux 在内核分类上属于宏内核 Monolithic Kernel，本项目将其裁剪为极简的单用途音频系统）。
    * 彻底摒弃 `systemd`、`PulseAudio`、`PipeWire`、Python 或 Node.js 运行时。
